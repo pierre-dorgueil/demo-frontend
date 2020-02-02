@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Votre ticket</title>
+  </head>
+  <body>
+    <h1>Votre ticket :</h1>
+    num&eacute;ro
+    <% if (ticketNumber) { %>
+      <%= ticketNumber %> 
+    <% } %>
+    , servi par
+    <% if (ipHost) { %>
+      <%= ipHost %> 
+    <% } %>  
+  </body>
+</html>
